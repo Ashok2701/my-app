@@ -1,0 +1,40 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+
+body {
+
+  font-family: "Open Sans", sans-serif;
+  /* display : flex;
+  justify-content : center;
+  align-items : center;
+  min-height : 100vh;
+  background : url('./assets/FMS_Login_Page.jpg') no-repeat;
+  background-size : cover;
+  background-position : center; */
+  
+
+}
+
+
+.login-background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url('./assets/FMS_Login_Page.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
